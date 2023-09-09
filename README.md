@@ -31,4 +31,4 @@ livros e autores e demonstre como os relacionamentos funcionam, incluindo
 exemplos de livros escritos por vários autores e autores que são auxiliares de
 outros. Garanta que todos os métodos sejam testados.<br /> 
 
-![Alt text](UML_LivroAutor-1.png)
+![Alt text](UML_LivroAutor.png)
