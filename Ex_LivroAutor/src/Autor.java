@@ -8,21 +8,19 @@ public class Autor {
     private Livro []livrosEscritos;
     private int livrosEscritosIndex;
 
-    public void escrever(){
-
-    }
 
     public Autor(String cpf, String nome, String dataNascimento, String email) {
         this.cpf = cpf;
         this.nome = nome;
         this.dataNascimento = dataNascimento;
         this.email = email;
+        auxiliares = new Autor[10];
+        livrosEscritos = new Livro[10];
+        auxiliaresIndex=0;
+        livrosEscritosIndex=0;
     }
 
-    public Autor(String cpf, String nome) {
-        this.cpf = cpf;
-        this.nome = nome;
-    }
+
 
     public void escrever(Livro livro){
         this.livrosEscritos[getLivrosEscritosIndex()]=livro;
